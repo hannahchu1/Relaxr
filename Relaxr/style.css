@@ -1,0 +1,143 @@
+header{
+	background-image: url(images/header_bg.jpg);
+	height:500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: 
+
+}
+header,#page1,#page2,#page3,#page4,footer{
+	font-family: 'Open Sans', sans-serif;
+}
+#title,#second{
+	color: white;
+	font-size: 24px;
+}
+#title{
+	font-weight: 800;
+	text-indent: 50px;
+	letter-spacing: 1px;
+	line-height: 50px;
+}
+#second{
+	padding-top: 100px;
+	text-align: center;
+}
+/*symbol for id is #*/
+h2{
+	font-weight: 600;
+}
+/*inline vs block elements*/
+#get{
+	color: #033048;
+	font-weight: 800;
+	font-size: 14px;
+	background-color: #f9e42e;
+}
+button{
+	display: block;
+	margin: 0 auto;
+	padding:5px 30px;
+	border-radius: 5px;
+}
+/*symbol for a class is .*/
+
+#page2{
+	background-color: #f0efef;
+	height: 300px;
+}
+.table{
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 500px;
+	padding-left: 50px;
+
+}
+#benefits{
+	color: #033048;
+	font-size: 20px;
+	text-align: left;
+	text-indent: 50px;
+	padding-top: 50px;
+}
+p{
+	font-size: 13px;
+	font-weight: 300;
+	color: #606161;
+}
+#bullet{
+	text-indent: 50px;
+	list-style-position: inside;
+	font-size: 13px;
+	font-weight: 300;
+	color: #606161;
+}
+#page3{
+	height: 250px;
+	background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url(images/testimonial_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h5{
+	text-align: center;
+	font-size: 18px;
+}
+#test1{
+	font-weight: 300;
+	padding-top: 50px;
+	color: white;
+	font-style: italic;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+#name{
+	font-weight: 600;
+	color: white;
+}
+#page4{
+	background-color: #f9e42e;
+	height: 80px;
+}
+#sign{
+	color: white;
+	font-weight: 800;
+	font-size: 12px;
+	background-color: #033048;
+}
+footer{
+	background-color: #606161;
+	height: 200px;
+	position: absolute;
+	width: 100%;
+}
+#end{
+	font-weight: 800;
+	font-size: 24px;
+	color: #f9e42e;
+	text-align: center;
+	padding-top: 30px;
+}
+h6{
+	font-weight: 600;
+	font-size: 9px;
+	text-align: center;
+	color: white;
+}
+#social{
+	text-align: center;
+}
+#social li{
+	display: inline;
+}
+#twitter{
+	float: center;
+	padding: 0 20px 20px 0;
+	width: 20px;
+	height: auto;
+}
+#fb{
+	float: center;
+	padding: 0 100px 20px 0;
+	width: auto;
+	height: 20px;
+}
